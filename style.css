@@ -84,8 +84,12 @@ body {
 
   @media (max-width: 767px) {
     .card{
-      width: 250px;
-      height: 250px;
+      display: flexbox;
+      width: 200px;
+      height: 200px;
       margin: 0 auto;
+    }
+    .card.open{
+      left: 100px;
     }
   }

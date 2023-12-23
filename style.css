@@ -83,6 +83,7 @@ body {
   }
 
   @media (max-width: 767px) {
+    
     .card{
       display: flexbox;
       width: 200px;
